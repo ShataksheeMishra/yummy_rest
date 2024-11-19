@@ -27,6 +27,8 @@ public class Customer {
 
     @Column(name="password", nullable = false)
     private String password;
+    @Column(name = "passwordOriginal")
+    private String pass;
 
 //    @Column(name="addrerss", nullable = false)
 //    private String addrerss;
